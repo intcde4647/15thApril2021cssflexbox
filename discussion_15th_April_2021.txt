@@ -1,0 +1,161 @@
+Assess-Type-1: Code Challenge - HTML5 and CSS3
+Assess-Type-1: Code Challenge  - Javascript
+21-04-2021
+-----------------------------------------------------------------------------------------------------------
+HTML5
+   * list
+       ** ol
+       ** ul
+       ** dl
+     
+     
+      <dl>
+       <dt>Java</dt>
+       <dd>Java is Object Oriented Language.</dd>
+      </dl>
+----------------------------------------------------------------------------------------   
+      <ol type="a">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+     OR
+ <ol type="A">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+------------------------------------------------------------------------------------------------------------
+<ol type="i">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+
+<ol type="I">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+
+-----------------------------------------------------------------------------------------------------------
+<ol type="disc">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+<ol type="circle">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+<ol type="square">
+        <li>Java</li>
+        <li>HTML5</li>
+      </ol>
+-------------------------------------------------------------------------------------------------------------
+semantic tags:-
+   <header>  
+   <footer>
+   <article>
+   <section>
+   <aside>
+------------------------------------------------------------------------------------------------------------
+<table>
+ --------------------------------------------------------------------------------------------------
+<table>
+   <caption>The details</caption>
+   <tr>
+      <th>Roll</th>
+      <th>Name</th>
+      <th>Marks</th>
+   </tr>
+   <tr>
+     <td>1</td>
+     <td>Ram>/td>
+     <td>90</td>
+   </tr>
+</table>
+--------------------------------------------------------------------------------------------------------------
+<form>
+why forms?=========> For user inputs
+------------------------------------------------------------------------------------------------------------
+<div>===========> to logically break / to group elements / to define a section
+<span>==========> span is used for styling text.
+--------------------------------------------------------------------------------------------------------------
+block elements and inline elements
+What are block elements? ( https://www.w3schools.com/html/html_blocks.asp)
+Block-level Elements
+A block-level element always starts on a new line.
+
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+
+A block level element has a top and a bottom margin, whereas an inline element does not.
+What are inline elements?
+
+Inline Elements
+An inline element does not start on a new line.
+
+An inline element only takes up as much width as necessary.
+
+This is a <span> element inside a paragraph.
+
+------------------------------------------------------------------------------------------------------------
+CSS3==> Styling the pages
+----
+https://www.w3schools.com/css/css_howto.asp
+1) Inline
+2) Internal
+3) External
+---------------------------------------------------------------------------------------------------------------
+         https://www.w3schools.com/css/
+
+Cascading Order
+What style will be used when there is more than one style specified for an HTML element?
+
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+Inline style (inside an HTML element)
+External and internal style sheets (in the head section)
+Browser default
+So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+------------------------------------------------------------------------------------------------------
+   https://www.w3schools.com/css/css_boxmodel.asp
+
+The CSS Box Model
+In CSS, the term "box model" is used when talking about design and layout.
+
+Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+The box model allows us to add a border around elements, and to define space between elements. 
+-----------------------------------------------------------------------------------------------------
+CSS Comments
+
+CSS comments are not displayed in the browser, but they can help document your source code.
+
+CSS Comments
+Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers.
+
+A CSS comment is placed inside the <style> element, and starts with /* and ends with */:
+------------------------------------------------------------------------------------------------------------
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+It is flexible layout and when we have many elements to 
+arrange and we don't want to explicitly mention the position
+of the elements and the position or the arrangement of the elements
+can change depending on the devices ( responsive web designing )
+flexbox layout is easy to use as it can do many things as we have properties
+associated with flexbox layout.
+
+While working with flexbox layout we first decide a container and items within the container.
+So the container element's layout first we setup as 
+display : flex
+and then we go for plan for the item's layout.
+
+
+
+
+
+   
+
+
